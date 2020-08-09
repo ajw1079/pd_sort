@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*reset 또는 default 선언*/
+*{box-sizing: border-box;}
+html, body{margin: 0; padding: 0;}
+header, section, article, aside, nav, main, footer{display: block;}
+header:after, section:after, article:after, aside:after, nav:after, main:after, footer:after{content:""; display: block; clear: both}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+.clear{clear: both;}
+
+#pd_frame{width:1200px; padding:20px; background-color: #ededed; margin:0 auto;}
+#pd_frame .pd_btn{padding:0 0 20px; font-size: 0;}
+#pd_frame .pd_btn button{display: inline-block; font-size: 16px; padding:10px 20px; margin:0 5px; border:none; background-color: #fff; border-radius:4px; vertical-align: top;}
+
+
+#pd_frame .pd_btn select{display: inline-block; font-size: 16px; padding:10px 20px; margin:0 5px; border:none; background-color: #fff; border-radius:4px; vertical-align: top;}
+
+
+#pd_frame .product{padding:20px 10px 0; border:1px solid #999; font-size: 0;}
+#pd_frame .product .pd_box{width:calc(25% - 20px); margin:0 10px 20px; background-color: #fff; border-radius:4px; padding:20px; display: inline-block;}
+#pd_frame .product .pd_box .pd_img{height:200px; background-size: cover; background-position: 50% 50%; background-color: #aaaaff;}
+#pd_frame .product .pd_box .pd_title{padding:10px 0; color:#555; font-size: 17px;}
+#pd_frame .product .pd_box .pd_context{padding-bottom:10px; font-size: 16px; color:#777;}
+
+#pd_frame .product .pd_box .pd_info{border-top:1px dashed #999; padding-top:10px;}
+#pd_frame .product .pd_box .pd_info:after{content:""; display: block; clear: both;}
+#pd_frame .product .pd_box .pd_info .price{float: left; color:#555; font-size: 16px;}
+#pd_frame .product .pd_box .pd_info .update{float: right; font-size:14px;}
+
+#pd_frame .product .pd_box .fav_rate{text-align: right;padding-top:10px;}
+#pd_frame .product .pd_box .fav_rate p{font-size: 14px;}
+#pd_frame .product .pd_box .fav_rate p span{color:red;}
+
+.pager{padding:20px 0;}
+.pager ol{text-align: center; font-size: 0;}
+.pager ol li{display: inline-block; padding:0 10px; line-height: 1; border-right:1px solid #777; font-size: 15px; color:#555; cursor: pointer;}
+.pager ol li.active{color:red;}
+
+.pager ol li:last-child{border:none;}
+
+
+
+
+
+
